@@ -42,19 +42,23 @@ _A webpage that converts numbers into roman numerals by taking a user's number a
 * _Input: 1_
 * _Output: "I"_
 
-Cover addition here-- like 2 gives II
+#### _9.  If the input value is greater then 1 add them._
+* _Input: 2_
+* _Output: "II"_
 
-Cover multiple symbols-- i.e. 6 gives you VI
+#### _10.  If the input value is is greater then 5, add them._
+* _Input: 6_
+* _Output: "VI"_
 
-#### _9.  If a character appears four times in a row, switch to subtraction._
+#### _11.  If a character appears four times in a row, switch to subtraction._
 * _Input: 4_
 * _Output: IV_
 
-#### _10.  Separate the ones and tens_
+#### _12.  Separate the ones and tens_
 * _Input: 13_
 * _Output: XIII_
 
-#### _11. Separate the tens and hundreds_
+#### _13. Separate the tens and hundreds_
 
 * _Input: 59_
 * _Output: LIX_
@@ -62,7 +66,7 @@ Cover multiple symbols-- i.e. 6 gives you VI
 * _Output: CXIII_
 
 
-#### _12.  Separate the hundreds and thousands_
+#### _14.  Separate the hundreds and thousands_
 * _Inputs: 3,500_
 * _Output: MMMD_
 
