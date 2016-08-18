@@ -14,7 +14,7 @@ _A webpage that converts numbers into roman numerals by taking a user's number a
 * _Input: 4,000_
 * _Output: "Please enter a number under 4,000"_
 
-#### _2.  If the input value is 1,000 or greater, return "M"_
+#### _2.  If the input value is 1,000, return "M"_
 * _Input: 1,000_
 * _Output: "M"_
 
@@ -42,21 +42,29 @@ _A webpage that converts numbers into roman numerals by taking a user's number a
 * _Input: 1_
 * _Output: "I"_
 
+Cover addition here-- like 2 gives II
+
+Cover multiple symbols-- i.e. 6 gives you VI
+
 #### _9.  If a character appears four times in a row, switch to subtraction._
-* _Input: IIII_
+* _Input: 4_
 * _Output: IV_
 
 #### _10.  Separate the ones and tens_
-* _Input: VIIII_
-* _Output: VIV_
+* _Input: 13_
+* _Output: XIII_
 
 #### _11. Separate the tens and hundreds_
-* _Input:_
-* _Output:_
+
+* _Input: 59_
+* _Output: LIX_
+* _Input: 113_
+* _Output: CXIII_
+
 
 #### _12.  Separate the hundreds and thousands_
-* _Inputs:_
-* _Output:_
+* _Inputs: 3,500_
+* _Output: MMMD_
 
 ## Setup/Installation Requirements
 
